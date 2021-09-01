@@ -1,0 +1,80 @@
+#Blog_main{
+    background-color: white !important;
+}
+#banner{
+    height: 50vh;
+    background-image: url(/Images/blogbanner.jpg);
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    color: white;
+    position: relative;
+}
+#banner h1{
+    font-size: 50px;
+    color: white;
+}
+#banner h4{
+    font-family:'Tangerine', cursive;
+    font-size: 50px;
+}
+#blog-container *{
+    /* border: 2px solid; */
+}
+#blog-container{
+    padding: 5%;
+    width: 100%;
+}
+#blog-left{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+    color: black;
+
+}
+#blog-left #moviereview{
+    width: 100%;
+    text-align: justify;
+}
+#moviereview img{
+    width: 100%;
+    margin: 20px 0px;
+
+}
+#moviereview p{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+#blog-right{
+    width: 30%;
+}
+.blog-post{
+    width: 40%;
+    box-shadow: 0px 0px 5px gray;
+    padding: 20px;
+}
+.blog-post img{
+    width: 100%
+}
+.blog-post h4{
+    margin: 10px 0px;
+}
+#overlay{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.7);
+    display: grid;
+    place-items: center;
+    padding: 0px 100px;
+    
+}
+#moviereview{
+    font-family: 'Hina Mincho', serif;
+}
